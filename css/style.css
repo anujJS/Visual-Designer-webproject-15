@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+:root {
+  --red: #c42323;
+  --grey: #292e31;
+}
+* {
+  font-family: "Roboto", sans-serif;
+}
+html {
+  background-color: #0d0d0d;
+}
+body {
+  color: #fff;
+}
+div.navarea {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+div.navarea span.logo {
+  margin-left: 100px;
+  width: 150px;
+}
+span.logo img {
+  width: 130px;
+}
+nav ul {
+  display: inline-block;
+}
+nav ul li {
+  display: flex;
+  display: inline-block;
+}
+nav ul li a {
+  margin-left: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul li a img {
+  margin-left: 5px;
+}
+section.sechome {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+div.homeimg img {
+  width: 640px;
+}
+div.homepara {
+  margin-top: 150px;
+}
+div.homepara h4 {
+  color: var(--red);
+  font-size: 22px;
+}
+div.homepara h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+div.homepara p {
+  font-weight: 200;
+}
+div.homepara button {
+  padding: 15px 60px;
+  color: #fff;
+  font-weight: 700;
+  background-color: var(--red);
+}
+
+/* second page */
+
+span.greybg {
+  position: absolute;
+  z-index: -1;
+  display: inline-grid;
+  width: 680px;
+  height: 700px;
+  background-color: #191c1e;
+}
+div.sec2upper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* three span */
+.uidesign {
+  margin-left: 20px;
+  width: 60px;
+}
+div.sec2upper span h3 {
+  font-size: 18px;
+  margin-left: 20px;
+}
+div.sec2upper span p {
+  font-size: 13px;
+  margin-left: 20px;
+}
+div.sec2upper span img {
+  margin-top: 10px;
+}
+div.sec2upper span h4 {
+  margin-left: 20px;
+}
+div.sec2upper span h4:hover {
+  cursor: pointer;
+}
+/* three span ends */
+div.sec2upper span {
+  margin-top: 50px;
+  margin-left: 130px;
+
+  width: 250px;
+  height: 250px;
+  background-color: var(--grey);
+}
+div.sec2upper span.two {
+  background-color: var(--red);
+}
+
+.arrowmore {
+  width: 15px;
+}
+span.experience {
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+span.experience h1 {
+  color: var(--red);
+  font-size: 40px;
+  font-weight: 900;
+}
+span.experience p {
+  margin-top: -30px;
+  font-weight: bold;
+  margin-left: -50px;
+  text-align: center;
+
+  position: absolute;
+  width: 150px;
+}
+div.container {
+  margin-top: 80px;
+  margin-left: 600px;
+  display: grid;
+  gap: 50px 100px;
+  grid-auto-rows: 100px;
+  grid-auto-columns: 300px;
+  grid-template-areas:
+    "a b"
+    "c d";
+}
+div.container div {
+  text-align: center;
+
+  width: 350px;
+  display: inline;
+  background-color: var(--grey);
+}
+div.container div h1 {
+  color: var(--red);
+}
+
+/* third page */
+
+div.sec3head {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sec3left h2 {
+  font-size: 30px;
+  margin-left: 200px;
+  font-weight: 900;
+}
+.sec3left p {
+  margin-left: 200px;
+  font-size: 13px;
+  font-weight: 400;
+}
+.sec3Btn button:hover {
+  cursor: pointer;
+}
+.sec3Btn button {
+  padding: 10px 60px;
+  background-color: var(--red);
+  color: #fff;
+  font-weight: bold;
+  margin-left: 335px;
+  margin-top: 30px;
+}
+div.wrapper div div img {
+  width: 400px;
+  height: 200px;
+}
+div.wrapper div div {
+  display: inline-block;
+
+  padding: 40px 20px;
+  background-color: var(--grey);
+}
+div.wrapper span img {
+  position: relative;
+
+  margin-left: 10px;
+  width: 15px;
+}
+div.wrapper {
+  margin-top: 80px;
+  margin-left: 200px;
+  display: grid;
+  gap: 300px 300px;
+  grid-auto-rows: 100px;
+  grid-auto-columns: 300px;
+  grid-template-areas:
+    "a b"
+    "c d";
+}
+div.wrapper div span p {
+  font-size: 12px;
+}
+
+/* 4th page */
+
+div.sec4head {
+  margin-left: 200px;
+  display: inline-block;
+  width: 1045px;
+  background-color: var(--grey);
+  height: 200px;
+
+  margin-top: 350px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div.sec4head span h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-left: 50px;
+}
+div.sec4head span p {
+  margin-left: 50px;
+  font-size: 13px;
+}
+div.sec4head span button:hover {
+  cursor: pointer;
+}
+div.sec4head span button {
+  padding: 10px 50px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  margin-left: 250px;
+  margin-top: 80px;
+  background-color: var(--red);
+}
+div.bootomNav {
+  display: block;
+  text-align: center;
+  margin-top: 120px;
+}
+div.bootomNav ul li {
+  list-style: none;
+  display: flex;
+  display: inline-block;
+  flex-direction: row;
+  margin-left: 30px;
+  font-size: 12px;
+}
+footer {
+  background-color: var(--grey);
+  height: 100px;
+}
+.footlogo img {
+  margin-top: 30px;
+  margin-left: 200px;
+  width: 120px;
+}
+span.social {
+  margin-left: -140px;
+}
+span.social img {
+  margin-top: 30px;
+  width: 30px;
+  margin-left: 40px;
+  align-items: bottom;
+}
+footer div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
